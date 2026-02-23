@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f9;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  width: 320px;
+  text-align: center;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.dashboard {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.generate-box {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.generate-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.generate-box button {
+  padding: 10px 20px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  border-radius: 8px;
+}
+
+.post-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.delete {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
